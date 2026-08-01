@@ -1,4 +1,3 @@
-# fitzone-lead-management
 # 🏋️ FitZone Córdoba — Sistema de Gestión Comercial de Leads
 
 **Power Apps · Power Automate · Power BI**
@@ -16,6 +15,30 @@ FitZone Córdoba recibe consultas de potenciales socios por múltiples canales (
 - Qué asesor y qué canal convertían mejor
 
 Este proyecto digitaliza ese proceso completo y lo convierte en un sistema analizable.
+
+---
+
+## 🧩 Cómo funciona cada herramienta (explicación conceptual)
+
+### Power Apps — la puerta de entrada de los datos
+
+Lo primero que se construyó fue el **diseño de la interfaz**: una aplicación con distintas pantallas pensada para que el personal de FitZone la use en el día a día, sin necesitar conocimientos técnicos. Esta app permite:
+
+- **Insertar nuevos leads:** cuando alguien consulta por primera vez, el personal carga sus datos (nombre, teléfono, canal de contacto) directo desde la app.
+- **Agregar personal nuevo:** si se contrata un asesor comercial, se da de alta desde la misma app, sin tocar el Excel a mano.
+- **Modificar leads existentes:** a medida que un lead avanza (agenda una clase de prueba, se le ofrece un plan, se convierte en socio o se pierde), el personal busca ese lead y actualiza su estado desde la app.
+
+Todo lo que se carga o modifica en Power Apps se guarda automáticamente en la base de datos central (Excel en SharePoint) — es la única puerta de entrada de información al sistema.
+
+### Power Automate — lo que pasa "solo", sin que nadie lo dispare
+
+Una vez que los datos existen, hay reglas de negocio que deben ejecutarse automáticamente, sin depender de que una persona se acuerde de hacerlas. Por eso se armó un flujo que **corre todos los días por su cuenta** y revisa: ¿hay algún lead que lleva más de 3 días sin que nadie lo contacte? Si es así, manda una alerta por email al instante, sin que nadie tenga que pedirlo.
+
+### Power BI — el mismo proyecto, pero mirado desde arriba
+
+Power BI no carga ni modifica ningún dato — **lee** la misma base de datos que alimentan Power Apps y Power Automate, y la transforma en indicadores y gráficos. Esto es lo que hace que el proyecto sea un sistema **automatizable de punta a punta**: cada vez que el personal carga un lead nuevo o actualiza uno existente desde la app, ese cambio queda reflejado en la base de datos, y basta con apretar "Actualizar" en Power BI para que el dashboard completo (conversión, tiempos de respuesta, performance del equipo) se recalcule solo, con los datos más recientes — sin que haya que tocar ni una fórmula ni un gráfico de nuevo.
+
+En otras palabras: **cargar un dato una sola vez, en un solo lugar (la app), alimenta automáticamente todo el resto del sistema** — la automatización de alertas y el análisis de negocio.
 
 ---
 
@@ -60,7 +83,7 @@ Dataset sintético de **1.050 leads** a lo largo de 12 meses (2025), generado co
 | Mejor canal de conversión | Referido (50%) |
 | Canal de mayor volumen pero menor conversión | Instagram Ads (16%) |
 | Brecha entre mejor y peor asesor | 113 vs. 13 socios convertidos |
-| Ingresos estimados totales | ~$44.000.000 |
+| Ingresos estimados totales | ~$44.000 |
 | Plan más elegido | Mensual (155 socios), seguido de Trimestral (98) y Anual (73) |
 
 **El hallazgo central:** más de la mitad de las oportunidades perdidas no se debe a precio ni a la competencia, sino a que el equipo tarda en promedio 12 días en responder — muy por encima del estándar recomendado de 24-48 horas.
@@ -77,7 +100,6 @@ Dataset sintético de **1.050 leads** a lo largo de 12 meses (2025), generado co
 | Gestión de Planes y Personal | Actualización de precios (con historial automático) y alta de nuevos empleados |
 | Buscar y Actualizar Lead | Búsqueda por nombre/documento, cambio de etapa con indicador visual de leads sin contacto reciente |
 
-*(Agregar capturas de pantalla en `/screenshots`)*
 
 ---
 
@@ -98,22 +120,7 @@ Dataset sintético de **1.050 leads** a lo largo de 12 meses (2025), generado co
 
 ---
 
-## 🛠️ Metodología de trabajo
 
-Este proyecto siguió un ciclo completo de Data Analytics:
-
-1. Comprender el negocio (contexto, stakeholders, objetivos, KPIs)
-2. Definir el proyecto (valor de portafolio, habilidades, herramientas)
-3. Diseño del dataset (por qué generarlo, lógica de negocio documentada)
-4. Plan del proyecto (alcance, entregables, limitaciones)
-5. Limpieza de datos (Power Query — decisiones documentadas por cada tipo de problema)
-6. Análisis exploratorio
-7. Análisis de negocio (pensando como consultor, no solo describiendo datos)
-8. Dashboard (Power BI)
-9. Informe ejecutivo con recomendaciones estratégicas
-10. Publicación (este repositorio, LinkedIn, entrevistas)
-
----
 
 ## ⚠️ Limitaciones conocidas
 
