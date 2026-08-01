@@ -79,11 +79,7 @@ Este es el flujo más importante del sistema desde el punto de vista de negocio,
 
 **Por qué esto es valioso:** convierte una tarea que antes dependía de que alguien "se acuerde" de revisar manualmente la lista de leads pendientes, en un proceso que corre solo, todos los días, sin margen de olvido humano.
 
-*[Insertar foto: Diagrama del flujo en Power Automate]*
-*[Insertar foto: Ejemplo de email de alerta recibido]*
-
----
-
+![Diagrama del flujo en Power Automate](POWER AUTOMATE ALERTA LEAD SIN CONTACTAR.PNG  )
 ## 3. Power BI — El análisis que se actualiza solo
 
 Power BI no carga ni modifica ningún dato — cumple un rol distinto y complementario: **lee** la misma base de datos que alimentan Power Apps y Power Automate, y la convierte en indicadores, gráficos y hallazgos de negocio.
