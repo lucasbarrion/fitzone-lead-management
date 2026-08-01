@@ -88,19 +88,18 @@ Power BI no carga ni modifica ningún dato — cumple un rol distinto y compleme
 
 Pensada para que, de un vistazo de 10 segundos, cualquier persona (incluso sin conocimiento del detalle operativo) entienda cómo viene el negocio: cuántos leads entraron, cuántos se convirtieron en socios, cuál es la tasa de conversión general, y cómo se distribuyen los leads a lo largo de las distintas etapas del proceso comercial (con un gráfico de embudo). También muestra la evolución mes a mes de las consultas recibidas, lo que permite detectar estacionalidad (por ejemplo, más consultas en los meses de verano).
 
-*[Insertar foto: Página de Resumen Ejecutivo]*
+
 
 ### 3.2 Página — Análisis Comercial
 
 Esta página responde la pregunta "¿qué está funcionando y qué no, dentro del equipo y los canales de marketing?". Muestra la conversión de cada asesor comercial (permitiendo detectar quién convierte mejor y por qué), la conversión de cada canal de origen (para saber si vale la pena invertir más en publicidad o en el programa de referidos), el tiempo promedio que tarda el equipo en dar una primera respuesta, y un desglose de los motivos por los que se pierden los leads que no se convierten.
 
-*[Insertar foto: Página de Análisis Comercial]*
 
 ### 3.3 Página — Planes y Precios
 
 Esta página se enfoca en la parte comercial/financiera del negocio: cómo evolucionaron los precios de cada plan a lo largo del año, cuál es el plan que más eligen los socios, y una estimación de los ingresos generados en base a los planes vendidos.
 
-*[Insertar foto: Página de Planes y Precios]*
+
 
 ### 3.4 Cómo se mantiene actualizado
 
@@ -108,6 +107,8 @@ Power BI Desktop no se actualiza en tiempo real por sí solo: cada vez que se qu
 después de que el personal cargó leads nuevos desde Power Apps durante la semana), simplemente se abre el archivo y se presiona el botón "Actualizar".
 En ese momento, Power BI vuelve a leer la base de datos completa, aplica automáticamente todos los pasos de limpieza y transformación que ya están programados,
 y recalcula todos los gráficos y medidas — sin que haya que tocar ni rehacer nada manualmente.
+
+📊 [Descargar dashboard Power BI (.pbix)](FitZone.pbix)
 
 ---
 
