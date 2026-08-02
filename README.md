@@ -29,7 +29,7 @@ Usé el entorno de Microsoft (Power Apps, Power Automate y Power BI, todo conect
 
 📄 Documenté el funcionamiento de cada pantalla y cada herramienta con más detalle en [`FUNCIONAMIENTO_DETALLADO.md`](./FUNCIONAMIENTO_DETALLADO.md), por si a alguien le interesa entender cómo está armado sin tener que abrir la app.
 
-📈 Los hallazgos del análisis y las recomendaciones para la gerencia están desarrollados en el [`Informe_Ejecutivo_FitZone.docx`](./Informe_Ejecutivo_FitZone.docx) — ahí está la parte que más me gustó armar de todo el proyecto.
+📈 Los hallazgos del análisis y las recomendaciones para la gerencia están desarrollados en el [HALLAZGOS.MD) — ahí está la parte que más me gustó armar de todo el proyecto.
 
 ## 🗂️ Sobre los datos
 
