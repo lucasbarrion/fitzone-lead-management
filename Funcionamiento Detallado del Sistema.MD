@@ -57,8 +57,7 @@ Esta pantalla es de uso administrativo, pensada para el encargado de compras o d
 - Un campo de texto simple para escribir el nombre de un empleado nuevo, y un botón "Agregar", que lo suma a la lista de personal disponible.
 - Apenas se agrega un nombre nuevo acá, automáticamente pasa a estar disponible como opción en el selector de "asesor comercial" de la Pantalla de Registro de Leads — sin necesidad de tocar nada más en el sistema.
 
-*[Insertar foto: Pantalla de Gestión de Planes]*
-*[Insertar foto: Sección de Alta de Personal]*
+![POWER APP ](images/HOJA GESTION DE PLANES.png)
 
 ---
 
