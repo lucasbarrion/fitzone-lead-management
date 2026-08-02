@@ -29,7 +29,38 @@ Usé el entorno de Microsoft (Power Apps, Power Automate y Power BI, todo conect
 
 📄 Documenté el funcionamiento de cada pantalla y cada herramienta con más detalle en [`FUNCIONAMIENTO_DETALLADO.md`](./FUNCIONAMIENTO_DETALLADO.md), por si a alguien le interesa entender cómo está armado sin tener que abrir la app.
 
-📈 Los hallazgos del análisis y las recomendaciones para la gerencia están desarrollados en el [HALLAZGOS.MD](HALLAZGOS.MD) — ahí está la parte que más me gustó armar de todo el proyecto.
+📖 El relato completo de lo que encontré al analizar los datos, y las conclusiones que le llevaría a la gerencia, están en [`HALLAZGOS.md`](./HALLAZGOS.md).
+
+
+## 🎯 Objetivos y preguntas que guiaron el proyecto
+
+Antes de escribir una sola línea de código, definí qué necesitaba resolver este sistema. Esa etapa de diseño es la que después le da sentido a cada pantalla, cada automatización y cada gráfico del dashboard.
+
+**Objetivos de negocio:**
+- Aumentar la conversión de "interesado" a "socio pago".
+- Reducir el tiempo de respuesta tras la clase de prueba.
+- Detectar en qué etapa se pierden más potenciales socios.
+- Comparar la performance del personal de ventas/recepción.
+
+**Preguntas de negocio que el sistema tenía que poder responder:**
+- ¿Qué porcentaje de los que hacen la clase de prueba se convierten en socios?
+- ¿En qué etapa se pierden más leads —nunca agendan la prueba, la agendan pero no vuelven, o les ofrecen un plan y no compran?
+- ¿Cuánto tarda en promedio un interesado en decidirse?
+- ¿Qué canal de origen trae mejores conversiones —Instagram, referido, o pasada por el local?
+- ¿Qué plan (mensual, trimestral, anual) se vende más, y cuál genera más rechazo?
+
+**KPIs definidos para medir todo esto:**
+
+| KPI | Cómo se calcula |
+|---|---|
+| Tasa de conversión global | Socios pagos / Total de interesados |
+| Tasa de conversión por etapa | Embudo: Consulta → Prueba agendada → Prueba realizada → Propuesta de plan → Socio |
+| Tiempo de primera respuesta | Fecha de contacto − Fecha de consulta |
+| Leads estancados | Sin actividad reciente, sin cerrar |
+| Conversión por vendedor/recepcionista | Socios / Leads asignados |
+| Conversión por canal de origen | Socios / Leads, agrupado por canal |
+
+Todas estas preguntas quedaron respondidas en el análisis final —el detalle está en [`HALLAZGOS.md`](./HALLAZGOS.md).
 
 ## 🗂️ Sobre los datos
 
@@ -42,4 +73,6 @@ Ninguno de los nombres, documentos o teléfonos corresponde a una persona real.
 ## 🧰 Stack
 
 `Power Apps` `Power Automate` `Power BI` `Power Query` `DAX` `Python (pandas)` `Excel Online / SharePoint`
+
+
 
