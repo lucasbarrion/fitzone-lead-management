@@ -41,8 +41,7 @@ Esta es la pantalla más usada del sistema en el día a día, porque es donde el
 
 **Por qué está diseñada así:** el objetivo de esta pantalla es que el personal pueda hacer todo el seguimiento comercial (buscar, revisar el estado, actualizar) sin salir de una sola vista, y que el sistema deje registro automático de cada movimiento sin que el usuario tenga que hacer nada extra ni recordar completar una fecha a mano.
 
-*[Insertar foto: Pantalla de Buscar Lead — galería de resultados]*
-*[Insertar foto: Pantalla de Buscar Lead — formulario de edición de un lead]*
+![Buscar Lead](./BUSCAR%20LEAD.PNG)
 
 ### 1.4 Pantalla — Gestión de Planes y Personal
 
