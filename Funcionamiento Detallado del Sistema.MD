@@ -12,7 +12,7 @@ Power Apps es el punto de partida de todo el sistema: es la interfaz que usa el 
 
 Es la primera pantalla que ve el usuario al abrir la app. Su única función es la **navegación**: presenta 3 botones grandes y claros que llevan a cada una de las secciones funcionales del sistema (Registro de Leads, Buscar/Actualizar Lead, Gestión de Planes y Personal). Está configurada como pantalla de inicio (`StartScreen`) de la aplicación, por lo que es lo primero que carga siempre.
 
-*[Insertar foto: Pantalla de Inicio]*
+![Pantalla de Inicio](./PANTALLA%20DE%20INICIO.PNG)
 
 ### 1.2 Pantalla — Registro de Leads
 
