@@ -132,6 +132,4 @@ En definitiva: la tecnología acá no es el fin del proyecto, es lo que hace pos
 
 Y esa es, en el fondo, la diferencia entre entregar un análisis puntual y entregar un sistema: este informe responde las preguntas que se pueden hacer hoy, con un año de datos. Pero el sistema que lo generó va a seguir funcionando, cargando información y recalculando el análisis mucho después de que este documento se haya escrito —listo para responder las preguntas que todavía no se hicieron.
 
----
 
-*El desarrollo formal de este análisis, en formato de informe para gerencia con las recomendaciones priorizadas por costo/impacto, está en [`Informe_Ejecutivo_FitZone.docx`](./Informe_Ejecutivo_FitZone.docx).*
