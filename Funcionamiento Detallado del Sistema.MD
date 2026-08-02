@@ -26,7 +26,7 @@ Esta pantalla resuelve el primer paso del proceso comercial: cuando una persona 
 
 **Por qué está diseñada así:** en el momento de la primera consulta, todavía no se sabe si esa persona va a convertirse en socia, qué plan va a elegir, ni por qué motivo podría no seguir adelante. Por eso el formulario de esta pantalla es deliberadamente simple: solo pide la información que existe en ese momento. El resto de los datos (etapa, plan, motivo de pérdida) se completan más adelante, a medida que el proceso avanza, en la siguiente pantalla.
 
-*[Insertar foto: Pantalla de Registro de Leads con el formulario cargado]*
+![Registro Leads](./REGISTRO%20LEADS.PNG)
 
 ### 1.3 Pantalla — Buscar y Actualizar Lead
 
